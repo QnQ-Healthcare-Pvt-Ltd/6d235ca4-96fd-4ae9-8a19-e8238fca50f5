@@ -1,0 +1,39 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+
+:root {
+
+  --foreground-rgb: 0, 0, 0;
+
+  --background-rgb: 255, 255, 255;
+
+  --sidebar-width: 260px;
+
+  --sidebar-width-collapsed: 80px;
+
+  --topnav-height: 64px;
+
+}
+
+
+
+body {
+
+  color: rgb(var(--foreground-rgb));
+
+  background: rgb(var(--background-rgb));
+
+  @apply bg-gray-50 dark:bg-gray-900;
+
+}
+
+.sidebar-transition {
+
+  @apply transition-all duration-300 ease-in-out;
+
+}
